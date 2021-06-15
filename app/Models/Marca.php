@@ -22,6 +22,7 @@ class Marca extends Model
             'required' => 'O campo :attribute é obrigatório',
             'nome.unique' => 'O nome da marca já existe',
             'nome.min' => 'O nome deve ter no minimo 3 caracteres',
+            'imagem.file' => 'Selecione uma imagem',
             'imagem.mimes' => 'O arquivo deve ser uma imagem do tipo PNG'
         ];
     }
